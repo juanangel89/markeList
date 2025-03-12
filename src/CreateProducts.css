@@ -1,0 +1,29 @@
+.product-container-create-top {
+    border-radius: 2rem;
+    background-color: #0f0f0f;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .product-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container-input-shop-category {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 1rem;
+  }
+  
+  .container-input-product{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 1rem;
+  }
+  

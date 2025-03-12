@@ -1,0 +1,43 @@
+.shop-container {
+  background-color: rgb(193, 193, 193);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem 0 1rem 0;
+  gap: 1rem;
+  
+}
+
+
+/* .product-container {
+  background-color: rgb(193, 193, 193);
+  padding: 1rem 0 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1rem;
+  flex-wrap: wrap;
+} */
+
+.container-input {
+  width: 100%;
+}
+.input {
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 1rem;
+  box-sizing: border-box; /*para que el padding no afecte el tamaño del input */
+  background-color: #2c2c2c;
+}
+
+button {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-color: #0d8b26;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 1rem;
+}
+
