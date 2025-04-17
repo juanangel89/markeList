@@ -9,7 +9,7 @@ export const Login = () => {
       <h2>Iniciar Sesión</h2>
       <button onClick={signInWithGoogle}>Iniciar con Google</button>
       <button onClick={signInWithGitHub}>Iniciar con GitHub</button>
-      <button onClick={signInWithFacebook}>Iniciar con Facebook</button>
+      {/* <button onClick={signInWithFacebook}>Iniciar con Facebook</button> */}
       {/* <button onClick={logout}>Cerrar Sesión</button> */}
       </div>
     </div>

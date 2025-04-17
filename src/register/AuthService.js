@@ -21,15 +21,15 @@ export const signInWithGitHub = async () => {
   }
 };
 
-// Función para iniciar sesión con Facebook
-export const signInWithFacebook = async () => {
-  try {
-    const result = await signInWithPopup(auth, facebookProvider);
-    console.log("Usuario autenticado:", result.user);
-  } catch (error) {
-    console.error("Error en autenticación con Facebook:", error);
-  }
-};
+// // Función para iniciar sesión con Facebook
+// export const signInWithFacebook = async () => {
+//   try {
+//     const result = await signInWithPopup(auth, facebookProvider);
+//     console.log("Usuario autenticado:", result.user);
+//   } catch (error) {
+//     console.error("Error en autenticación con Facebook:", error);
+//   }
+// };
 
 // Cerrar sesión
 export const logout = async () => {
