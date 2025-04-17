@@ -1,4 +1,4 @@
-import { signInWithGoogle, signInWithGitHub, signInWithFacebook } from "./AuthService";
+import { signInWithGoogle, signInWithGitHub } from "./AuthService";
 import "./Login.css";
 
 export const Login = () => {

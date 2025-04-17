@@ -1,5 +1,5 @@
 import { signInWithPopup, signOut } from "firebase/auth";
-import { auth, googleProvider, githubProvider, facebookProvider } from "./firebaseConfig";
+import { auth, googleProvider, githubProvider } from "./firebaseConfig";
 
 // Función para iniciar sesión con Google
 export const signInWithGoogle = async () => {
