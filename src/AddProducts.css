@@ -1,7 +1,7 @@
 .product-container-add-left {
     border-radius: 2rem;
     background-color: #0f0f0f;
-    width: 20%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,3 +14,10 @@
     flex-direction: column;
     gap: 2rem;
   }
+
+  @media screen and (max-width: 768px) {
+    .product-container-add-left {
+      width: 90%;
+    }
+  }
+  
