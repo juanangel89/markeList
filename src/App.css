@@ -32,6 +32,28 @@
   background-color: #2c2c2c;
 }
 
+.header{
+  background-color: #2c2c2c;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.header-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.header-user{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
 button {
   padding: 0.5rem;
   border-radius: 1rem;

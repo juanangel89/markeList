@@ -42,9 +42,8 @@ function App() {
 
   return (
     <div className="shop-container">
-      <h3>Bienvenido, {user.displayName}</h3>
-      <button onClick={logout}>Cerrar Sesión</button>
-      
+      <div className="header">
+      <div className="header-buttons">
       <CreateButton setOpenModal={setOpenCreateModal} />
       {openCreateModal && (
         <Modal>
@@ -72,6 +71,12 @@ function App() {
           <MonthlySummary />
         </Modal>
       )}
+      </div>
+      <div className="header-user">
+            <h3>Bienvenido, {user.displayName}</h3>
+            <button onClick={logout}>Cerrar Sesión</button>
+      </div>
+      </div>
 
       <AddProducts />
       <ListProducts />
